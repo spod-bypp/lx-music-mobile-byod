@@ -1,7 +1,10 @@
 name: Build Beta
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - beta
+  
 
 jobs:
   Android:
